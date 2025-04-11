@@ -172,3 +172,31 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore composer vendor directory
+/vendor/
+
+# Ignore environment variables
+.env
+
+# Ignore IDE and editor config
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Cache and logs
+*.log
+*.cache
+
+# PHPStorm or other JetBrains
+*.iml
+*.phpunit.result.cache
+
+# Ignore node_modules if using JS in PHP projects
+node_modules/
+
